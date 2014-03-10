@@ -1,0 +1,39 @@
+imports:
+    - { resource: parameters.yml }
+
+framework:
+    #esi:             ~
+    #translator:      { fallback: "%locale%" }
+    secret:          "%secret%"
+    router:
+        resource: "%kernel.root_dir%/config/routing.yml"
+        strict_requirements: ~
+    form:            ~
+    csrf_protection: ~
+    validation:      { enable_annotations: true }
+    templating:
+        engines: ['twig']
+        #assets_version: SomeVersionScheme
+    default_locale:  "%locale%"
+    trusted_hosts:   ~
+    trusted_proxies: ~
+    session:
+        # handler_id set to null will use default session handler from php.ini
+        handler_id:  ~
+    fragments:       ~
+    http_method_override: true
+
+sensio_framework_extra:
+    view:
+        annotations: false
+
+fos_rest:
+    view:
+        view_response_listener: true
+        formats:
+            json: true
+            xml: false
+    routing_loader:
+        default_format: json
+
+nelmio_api_doc: ~
