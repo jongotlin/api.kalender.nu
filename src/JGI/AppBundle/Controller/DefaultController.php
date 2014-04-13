@@ -16,7 +16,8 @@ class DefaultController extends Controller
      * <pre>
      * {
      *   "date":"2014-03-09",
-     *   "red_day":true
+     *   "red_day":true,
+     *   "name":null
      * }
      * </pre>
      *
@@ -38,6 +39,7 @@ class DefaultController extends Controller
         return [
             'date' => $date->getDateTime()->format('Y-m-d'),
             'red_day' => $date->isRedDay(),
+            'name' => $date->getName(),
         ];
     }
 

@@ -35,5 +35,6 @@ fos_rest:
             xml: false
     routing_loader:
         default_format: json
-
+    serializer:
+        serialize_null: true
 nelmio_api_doc: ~
