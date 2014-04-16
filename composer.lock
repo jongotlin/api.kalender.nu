@@ -557,12 +557,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jongotlin/swedish-dates.git",
-                "reference": "ed6ceed602382d0d6f06e1ea187324891368bb6c"
+                "reference": "d412f989204cc2345476c32a247d529fa10f0dd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jongotlin/swedish-dates/zipball/ed6ceed602382d0d6f06e1ea187324891368bb6c",
-                "reference": "ed6ceed602382d0d6f06e1ea187324891368bb6c",
+                "url": "https://api.github.com/repos/jongotlin/swedish-dates/zipball/d412f989204cc2345476c32a247d529fa10f0dd8",
+                "reference": "d412f989204cc2345476c32a247d529fa10f0dd8",
                 "shasum": ""
             },
             "require": {
@@ -591,7 +591,7 @@
                 "date",
                 "sweden"
             ],
-            "time": "2014-04-13 04:33:02"
+            "time": "2014-04-16 19:22:50"
         },
         {
             "name": "jgi/swedish-dates-bundle",
@@ -599,12 +599,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jongotlin/SwedishDatesBundle.git",
-                "reference": "4999c33f447903cc16952993fc59071eb5dfc924"
+                "reference": "e3ab315624fed858459fd437fb42844cb8c0a93b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jongotlin/SwedishDatesBundle/zipball/4999c33f447903cc16952993fc59071eb5dfc924",
-                "reference": "4999c33f447903cc16952993fc59071eb5dfc924",
+                "url": "https://api.github.com/repos/jongotlin/SwedishDatesBundle/zipball/e3ab315624fed858459fd437fb42844cb8c0a93b",
+                "reference": "e3ab315624fed858459fd437fb42844cb8c0a93b",
                 "shasum": ""
             },
             "require": {
@@ -634,7 +634,7 @@
                 "date",
                 "sweden"
             ],
-            "time": "2014-04-13 04:33:40"
+            "time": "2014-04-16 19:25:24"
         },
         {
             "name": "jms/metadata",
