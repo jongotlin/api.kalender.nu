@@ -20,7 +20,8 @@
         "friendsofsymfony/rest-bundle": "1.1.*",
         "jms/serializer-bundle": "*",
         "nelmio/api-doc-bundle": "@stable",
-        "jgi/swedish-dates-bundle": "dev-master"
+        "jgi/swedish-dates-bundle": "dev-master",
+        "symfony/icu": "1.1.*"
     },
     "scripts": {
         "post-install-cmd": [
