@@ -4,4 +4,4 @@ jgi_app:
 
 NelmioApiDocBundle:
     resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
-    prefix:   /doc
+    prefix: /

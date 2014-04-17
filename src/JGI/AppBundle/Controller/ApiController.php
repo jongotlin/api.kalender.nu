@@ -7,7 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
 use Nelmio\ApiDocBundle\Annotation as ApiDoc;
 
-class DefaultController extends Controller
+class ApiController extends Controller
 {
     /**
      * Get date
@@ -15,9 +15,9 @@ class DefaultController extends Controller
      * <h4>Response</h4>
      * <pre>
      * {
-     *   "date":"2014-03-09",
+     *   "date":"2014-12-25",
      *   "red_day":true,
-     *   "name":null
+     *   "name":"Juldagen"
      * }
      * </pre>
      *
